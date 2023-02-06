@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+   float money,value;
+   printf("enter the money with dollar symbol:");
+   scanf("%f",&money);
+   value=(money + (money * 0.18));
+   printf("amount after adding tax= %f",value);
+   return 0;
+}
