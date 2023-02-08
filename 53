@@ -1,0 +1,21 @@
+#include <stdio.h>
+ 
+void main()
+{
+	int i, j, m, n;
+	
+	printf("Enter number of rows:\t");
+	scanf("%d", &m);
+	
+	printf("Enter number of columns:\t");
+	scanf("%d", &n);
+	
+	for(i = 1; i <= m; i++)
+	{
+		for(j = 1; j <= n; j++)
+		{
+			printf("* ");
+		}
+		printf("\n");
+	}
+}
